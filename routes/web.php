@@ -20,5 +20,8 @@ Route::get('/', function () {
 
 route::get('/bienvenido', [bienvenidoController::class,'bienvenido']);
 
+route::get('/inicio', [bienvenidoController::class,'inicio']);
+
 
 route::get('/alumnos', [AlumnosController::class,'alumnos']);
+
